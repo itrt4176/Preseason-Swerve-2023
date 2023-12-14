@@ -12,4 +12,28 @@ package frc.irontigers.robot;
  * <p>It is advised to statically import this class (or one of its inner classes) wherever the
  * constants are needed, to reduce verbosity.
  */
-public final class Constants {}
+public final class Constants {
+
+    public static final class DriveVals{
+        public static final class ModOne{
+            public final static int DRIVE_ONE = 1;
+            public final static int STEER_ONE = 2;
+        }
+
+        public static final class ModTwo{
+            public final static int DRIVE_TWO = 3;
+            public final static int STEER_TWO = 4;
+        }
+
+        public static final class ModThree{
+            public final static int DRIVE_THREE = 5;
+            public final static int STEER_THREE = 6;
+        }
+
+        public static final class ModFour{
+            public final static int DRIVE_FOUR = 7;
+            public final static int STEER_FOUR = 8;
+        }
+    }
+     
+}
